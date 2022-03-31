@@ -11,7 +11,3 @@ class circle:
     def getperimeter(self):
         return pi*self.radius*2
 
-c1 = circle(11)
-print(c1.getarea())
-circy = circle(4.44)
-print(circy.getperimeter())
