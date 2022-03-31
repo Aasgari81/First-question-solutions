@@ -7,7 +7,6 @@ class circle:
             raise TypeError('Radius must be float or integer')
         self.radius = r
     def getarea(self):
-        return pi*self.radius**2
+        return round(pi*self.radius**2)
     def getperimeter(self):
-        return pi*self.radius*2
-
+        return round(pi*self.radius*2)
